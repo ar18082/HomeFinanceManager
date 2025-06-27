@@ -28,7 +28,7 @@ Avant d'installer HomeManager, assurez-vous d'avoir :
 
 1. **Cloner le dépôt**
    ```bash
-   git clone <url-du-repo>
+  git clone https://github.com/ar18082/HomeFinanceManager.git
    cd HomeFinanceManager-new
    ```
 2. **Installer les dépendances**
@@ -112,7 +112,7 @@ Before installing HomeManager, make sure you have:
 
 1. **Clone the repository**
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/ar18082/HomeFinanceManager.git
    cd HomeFinanceManager-new
    ```
 2. **Install dependencies**
@@ -133,7 +133,7 @@ Before installing HomeManager, make sure you have:
 5. **Run migrations and seeders**
    ```bash
    php artisan migrate
-   php artisan db:seed --class=MegaEnergySeeder
+   php artisan db:seed --class=DatabaseSeeder
    ```
 6. **Build frontend assets**
    ```bash
