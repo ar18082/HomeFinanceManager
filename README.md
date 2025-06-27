@@ -4,6 +4,18 @@
 
 # HomeManager
 
+## 🇫�� Prérequis
+
+Avant d'installer HomeManager, assurez-vous d'avoir :
+
+- PHP >= 8.1 avec les extensions courantes (pdo, mbstring, openssl, tokenizer, xml, ctype, json, bcmath, fileinfo, etc.)
+- [Composer](https://getcomposer.org/) (gestionnaire de dépendances PHP)
+- [Node.js & npm](https://nodejs.org/) (pour la compilation des assets)
+- MySQL ou MariaDB (ou autre base compatible Laravel)
+- Un serveur web (Apache, Nginx, ou Laravel Valet/Artisan)
+
+---
+
 ## 🇫🇷 Guide d'installation et d'utilisation
 
 ### Présentation
@@ -37,7 +49,7 @@
 5. **Lancer les migrations et seeders**
    ```bash
    php artisan migrate
-   php artisan db:seed --class=MegaEnergySeeder
+   php artisan db:seed --class=DatabaseSeeder
    ```
 6. **Compiler les assets**
    ```bash
@@ -73,6 +85,18 @@
 - Le logo se trouve dans `public/img/logo.png`
 - Les vues sont dans `resources/views/`
 - Les seeders de tarifs sont dans `database/seeders/`
+
+---
+
+## 🇬🇧 Prerequisites
+
+Before installing HomeManager, make sure you have:
+
+- PHP >= 8.1 with common extensions (pdo, mbstring, openssl, tokenizer, xml, ctype, json, bcmath, fileinfo, etc.)
+- [Composer](https://getcomposer.org/) (PHP dependency manager)
+- [Node.js & npm](https://nodejs.org/) (for asset compilation)
+- MySQL or MariaDB (or any Laravel-compatible database)
+- A web server (Apache, Nginx, or Laravel Valet/Artisan)
 
 ---
 
